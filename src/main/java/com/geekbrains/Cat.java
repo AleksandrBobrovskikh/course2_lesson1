@@ -2,9 +2,9 @@ package com.geekbrains;
 
 public class Cat implements Player{
 
-    int maxRun = 100;
-    int maxJump = 5;
-    private boolean game = true;
+   private int maxRun = 100;
+   private int maxJump = 5;
+   private boolean game = true;
 
     @Override
     public int getMaxRun() {

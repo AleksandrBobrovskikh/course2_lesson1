@@ -1,10 +1,9 @@
 package com.geekbrains;
 
 public class Robot implements Player{
-    int maxRun = 1000;
-    int maxJump = 10;
+    private int maxRun = 1000;
+    private int maxJump = 10;
     private boolean game = true;
-
 
 
     @Override

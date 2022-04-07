@@ -1,7 +1,7 @@
 package com.geekbrains;
 
 public class Wall implements Barier{
-    int height;
+    private int height;
 
     public Wall(int height) {
         this.height = height;

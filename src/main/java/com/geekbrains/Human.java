@@ -1,8 +1,8 @@
 package com.geekbrains;
 
 public class Human implements Player{
-    int maxRun = 500;
-    int maxJump = 7;
+    private int maxRun = 500;
+    private int maxJump = 7;
     private boolean game = true;
 
     @Override

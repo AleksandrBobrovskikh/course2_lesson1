@@ -1,9 +1,7 @@
 package com.geekbrains;
 
 public class Road implements Barier{
-
-
-    public int length;
+    private int length;
 
     public Road(int length) {
         this.length = length;
